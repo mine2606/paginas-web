@@ -1,0 +1,174 @@
+
+header > a {
+    border-radius: 30px !important;
+    background-color: #e13507 !important;
+}
+
+header {
+    margin: 30px;
+}
+
+nav {
+    background-color: #00754d;
+    
+    
+}
+
+nav a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+nav a:hover { /* para cambiar la letra de color al pasar por encima */
+    color: #035535;
+}
+.titulo > h1 {
+
+    font-weight: bold;
+    color: #00754d;
+    text-align: center;  
+     
+}
+.card-group {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color:  #00754d;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body > a {
+    color: #00754d;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+
+.card-body > a:hover { /* para cambiar la letra de color al pasar por encima */
+    background-color: lightgrey;
+}
+
+#formulario a { 
+    color: #035535;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;   
+
+}
+
+#formulario .input-group button {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #00754d;
+    color: white;
+}
+#formulario input  {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#formulario input  {
+    border-radius: 20px;
+}
+
+#formulario:first-child { /* este no va */
+    border-bottom: 110px;
+    
+}
+
+#formulario > h5 {
+    text-align: center;
+
+}
+#anuncios .col:first-child {
+    background-color: #218050;
+}
+
+#anuncios .col:last-child {
+    background-color: #17633d;
+}
+
+#anuncios .col {
+    color: white;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#anuncios .col p {
+    margin-top: 30px;
+}
+
+#ofertas-empleo > a {
+    color: #00754d ;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+
+#ofertas-empleo > a:hover {
+    background-color: #00754d;
+    color: white;
+}
+
+#ofertas-empleo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#ofertas-empleo p {
+    color: #00754d;
+}
+
+#logo-footer .row:first-child {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer .row:first-child {
+    background-color: #00754d;
+    color: white;
+    padding: 50px;
+}
+
+footer .row:first-child ul { /*para quitar los puntos a la lista */
+    list-style-type: none;
+    padding-left: 0px;
+
+}
+
+
+footer .row:first-child p i{
+    font-size: x-large;
+    margin-right: 10px;
+}
+
+footer .row:last-child ul li {
+    display: inline;
+    font-size: smaller;
+    margin-right: 10px;
+    
+}
+
+footer .row:last-child .col-md-4 {
+    padding-left: 50px;
+    font-size: smaller;
+    text-align: left;
+}
+
+footer .row:first-child .col-md-8 {
+    padding-right: 50px;
+    text-align: right;
+}

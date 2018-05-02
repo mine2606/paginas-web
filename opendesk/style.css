@@ -1,0 +1,193 @@
+a:hover {
+    color: green;
+}
+
+
+
+body  {
+    background-color: #f1f1f1;
+    font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    
+}
+
+
+.contenedor{
+    position: center;
+    display: inline-block;
+    text-align: center;
+    color: white;
+       
+}
+ 
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding-top: 200px;
+    padding-left: 130px;
+    text-align: justify;
+    
+    
+}
+
+div.contenedor > div.texto-encima > h3{
+    font-weight: bold;
+}
+div.contenedor > div.texto-encima > p {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+button {
+    background-color: #008955;    
+    font-weight: bold;
+    color: white;
+
+}
+
+button:hover {
+    background-color: #007a4c;
+}
+
+.card-group{
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+}
+
+.card-group > .card {
+
+    border-color: white;
+    text-align: center; 
+    background-color: #f1f1f1;
+     
+}
+
+.card-group > .card > .card-body > h5:first-child {
+    font-weight: bold;
+}
+
+
+
+
+.card-bg-dark > .card-img {
+    outline-color: #f1f1f1;
+
+}
+.card-img-overlay {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding-top: 150px;
+    padding-left: 200px;
+    text-align: justify;
+}
+
+.card-body > .card-text {
+    font-size: small;
+   
+}
+.card-img-overlay > .card-text {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#foto {
+    -webkit-filter: contrast(50%);
+    filter: grayscale();
+}
+#uno {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+i {
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.card-group:nth-child(2) > .card {
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;   
+    
+}
+
+footer > iframe {
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.col-md-3 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#miboton {
+    background-color: white;
+    color: rgba(20, 19, 19, 0.733);
+    opacity: 0.7;
+    border-color: transparent;
+}
+
+#miboton:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+.card-group > .card:first-child > .card-text a {
+    color: #008955;
+}
+
+p {
+    font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    
+}
+
+#texto {
+    letter-spacing: .01rem;
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(133, 127, 127);
+    
+}
+
+
+.card:hover {    
+    border: .1rem solid #c9f2e2;
+}
+
+.menufinal {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #69696a;
+    text-align: center;
+}
+
+.menufinal nav {
+    background-color: #69696a;
+    text-align: center;
+}
+
+#redes {
+    color: white;
+    text-align: center;
+    background-color: #69696a;
+   
+}
+
+#navbarText {
+    background-color: #69696a;
+    text-align: center;
+}
+
